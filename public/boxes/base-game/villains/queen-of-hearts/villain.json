@@ -1,0 +1,373 @@
+{
+  "id": "queen-of-hearts",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Reine de Coeur",
+    "en": "Queen of Hearts"
+  },
+  "color": "#7A2A23",
+  "introPath": {
+    "fr": "intro/fr/01_06_17__01_06_23__fr.mp4",
+    "en": "intro/en/01_06_17__01_06_23__en.mp4"
+  },
+  "outroPath": {
+    "fr": "outro/fr/01_11_41__01_11_45__fr.mp4",
+    "en": "outro/en/01_11_41__01_11_45__en.mp4"
+  },
+  "places": [
+	{
+      "id": "courtyard",
+      "order": 1,
+      "clips": {
+        "fr": [
+			"places/courtyard/01_00_39__01_00_45__nolang.mp4"
+		],
+        "en": [
+			"places/courtyard/01_00_39__01_00_45__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "hedge-maze",
+      "order": 2,
+      "clips": {
+        "fr": [
+			"places/hedge-maze/00_57_19__00_57_29__nolang.mp4"
+		],
+        "en": [
+			"places/hedge-maze/00_57_19__00_57_29__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "tulgey-wood",
+      "order": 3,
+      "clips": {
+        "fr": [
+			"places/tulgey-wood/fr/00_38_30__00_38_40__fr.mp4"
+		],
+        "en": [
+			"places/tulgey-wood/en/00_38_30__00_38_40__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "white-rabbits-house",
+      "order": 4,
+      "clips": {
+        "fr": [
+			"places/white-rabbits-house/fr/00_21_00__00_21_06__fr.mp4"
+		],
+        "en": [
+			"places/white-rabbits-house/en/00_21_00__00_21_06__en.mp4"
+		]
+      }
+    }
+  ],
+  "villainCards": [
+	{
+      "id": "by-order-of-the-queen",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"villain-cards/by-order-of-the-queen/fr/01_01_18__01_01_22__fr.mp4"
+		],
+        "en": [
+			"villain-cards/by-order-of-the-queen/en/01_01_18__01_01_22__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "card-guard",
+      "category": "ally",
+      "clips": {
+        "fr": [
+			"villain-cards/card-guard/fr/01_02_55__01_03_00__fr.mp4"
+		],
+        "en": [
+			"villain-cards/card-guard/en/01_02_55__01_03_00__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "fury",
+      "category": "condition",
+      "clips": {
+        "fr": [
+			"villain-cards/fury/fr/01_06_45__01_06_49__fr.mp4"
+		],
+        "en": [
+			"villain-cards/fury/en/01_06_45__01_06_49__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "judgment",
+      "category": "condition",
+      "clips": {
+        "fr": [
+			"villain-cards/judgment/fr/01_07_12__01_07_19__fr.mp4"
+		],
+        "en": [
+			"villain-cards/judgment/en/01_07_12__01_07_19__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "makes-you-smaller",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"villain-cards/makes-you-smaller/fr/00_08_21__00_08_26__fr.mp4",
+			"villain-cards/makes-you-smaller/fr/00_08_44__00_08_52__fr.mp4"
+		],
+        "en": [
+			"villain-cards/makes-you-smaller/en/00_08_21__00_08_26__en.mp4",
+			"villain-cards/makes-you-smaller/en/00_08_44__00_08_52__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "off-with-your-head",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"villain-cards/off-with-your-head/fr/01_01_25__01_01_30__fr.mp4"
+		],
+        "en": [
+			"villain-cards/off-with-your-head/en/01_01_25__01_01_30__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "spear",
+      "category": "item",
+      "clips": {
+        "fr": [
+			"villain-cards/spear/fr/01_00_10__01_00_14__fr.mp4"
+		],
+        "en": [
+			"villain-cards/spear/en/01_00_10__01_00_14__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "stopwatch",
+      "category": "item",
+      "clips": {
+        "fr": [
+			"villain-cards/stopwatch/fr/00_47_57__00_48_20__fr.mp4"
+		],
+        "en": [
+			"villain-cards/stopwatch/en/00_47_57__00_48_20__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "take-the-shot",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"villain-cards/take-the-shot/01_03_38__01_03_47__nolang.mp4"
+		],
+        "en": [
+			"villain-cards/take-the-shot/01_03_38__01_03_47__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "the-king",
+      "category": "ally",
+      "clips": {
+        "fr": [
+			"villain-cards/the-king/fr/01_00_32__01_00_37__fr.mp4"
+		],
+        "en": [
+			"villain-cards/the-king/en/01_00_32__01_00_37__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "tweedle-dee-tweedle-dum",
+      "category": "ally",
+      "clips": {
+        "fr": [
+			"villain-cards/tweedle-dee-tweedle-dum/fr/00_13_40__00_13_48__fr.mp4"
+		],
+        "en": [
+			"villain-cards/tweedle-dee-tweedle-dum/en/00_13_40__00_13_48__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "very-merry-unbirthday",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"villain-cards/very-merry-unbirthday/fr/00_44_30__00_44_40__fr.mp4"
+		],
+        "en": [
+			"villain-cards/very-merry-unbirthday/en/00_44_30__00_44_40__en.mp4"
+		]
+      }
+    }
+  ],
+  "fateCards": [
+	{
+      "id": "alice",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/alice/fr/00_02_32__00_02_38__fr.mp4",
+			"fate-cards/alice/fr/00_43_08__00_43_12__fr.mp4"
+		],
+        "en": [
+			"fate-cards/alice/en/00_02_32__00_02_38__en.mp4",
+			"fate-cards/alice/en/00_43_08__00_43_12__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "caterpillar",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/caterpillar/fr/00_32_33__00_32_41__fr.mp4"
+		],
+        "en": [
+			"fate-cards/caterpillar/en/00_32_33__00_32_41__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "cheshire-cat",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/cheshire-cat/fr/00_40_15__00_40_30__fr.mp4",
+			"fate-cards/cheshire-cat/fr/00_41_14__00_41_25__fr.mp4",
+			"fate-cards/cheshire-cat/fr/00_56_09__00_56_20__fr.mp4"
+		],
+        "en": [
+			"fate-cards/cheshire-cat/en/00_40_15__00_40_30__en.mp4",
+			"fate-cards/cheshire-cat/en/00_41_14__00_41_25__en.mp4",
+			"fate-cards/cheshire-cat/en/00_56_09__00_56_20__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "dodo",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/dodo/fr/00_11_54__00_11_58__fr.mp4"
+		],
+        "en": [
+			"fate-cards/dodo/en/00_11_54__00_11_58__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "dormouse",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/dormouse/fr/00_42_45__00_42_48__fr.mp4"
+		],
+        "en": [
+			"fate-cards/dormouse/en/00_42_45__00_42_48__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "down-the-rabbit-hole",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"fate-cards/down-the-rabbit-hole/fr/00_05_31__00_05_37__fr.mp4",
+			"fate-cards/down-the-rabbit-hole/fr/00_05_56__00_06_04__fr.mp4"
+		],
+        "en": [
+			"fate-cards/down-the-rabbit-hole/en/00_05_31__00_05_37__en.mp4",
+			"fate-cards/down-the-rabbit-hole/en/00_05_56__00_06_04__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "im-late",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"fate-cards/im-late/fr/00_05_12__00_05_18__fr.mp4"
+		],
+        "en": [
+			"fate-cards/im-late/en/00_05_12__00_05_18__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "mad-hatter",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/mad-hatter/fr/00_44_57__00_45_07__fr.mp4"
+		],
+        "en": [
+			"fate-cards/mad-hatter/en/00_44_57__00_45_07__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "makes-you-larger",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"fate-cards/makes-you-larger/fr/00_09_28__00_09_37__fr.mp4",
+			"fate-cards/makes-you-larger/fr/00_21_40__00_21_45__fr.mp4"
+		],
+        "en": [
+			"fate-cards/makes-you-larger/en/00_09_28__00_09_37__en.mp4",
+			"fate-cards/makes-you-larger/en/00_21_40__00_21_45__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "march-hare",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/march-hare/fr/00_42_08__00_42_13__fr.mp4",
+			"fate-cards/march-hare/fr/00_43_03__00_43_08__fr.mp4"
+		],
+        "en": [
+			"fate-cards/march-hare/en/00_42_08__00_42_13__en.mp4",
+			"fate-cards/march-hare/en/00_43_03__00_43_08__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "mome-raths",
+      "category": "effect",
+      "clips": {
+        "fr": [
+			"fate-cards/mome-raths/fr/00_53_03__00_53_17__fr.mp4"
+		],
+        "en": [
+			"fate-cards/mome-raths/en/00_53_03__00_53_17__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "white-rabbit",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/white-rabbit/00_04_53__00_04_57__nolang.mp4"
+		],
+        "en": [
+			"fate-cards/white-rabbit/00_04_53__00_04_57__nolang.mp4"
+		]
+      }
+    }
+  ]
+}

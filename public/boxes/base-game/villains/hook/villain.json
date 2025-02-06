@@ -1,0 +1,327 @@
+{
+  "id": "hook",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Capitaine Crochet",
+    "en": "Captain Hook"
+  },
+  "color": "#602B3F",
+  "introPath": {
+    "fr": "intro/fr/00_27_13__00_27_16__fr.mp4",
+    "en": "intro/en/00_27_13__00_27_16__en.mp4"
+  },
+  "outroPath": {
+    "fr": "outro/fr/01_05_57__01_06_08__fr.mp4",
+    "en": "outro/en/01_05_57__01_06_08__en.mp4"
+  },
+  "places": [
+    {
+      "id": "jolly-roger",
+      "order": 1,
+      "clips": {
+        "fr": ["places/jolly-roger/fr/00_20_35__00_20_47__fr.mp4"],
+        "en": ["places/jolly-roger/en/00_20_35__00_20_47__en.mp4"]
+      }
+    },
+    {
+      "id": "skull-rock",
+      "order": 2,
+      "clips": {
+        "fr": ["places/skull-rock/00_39_05__00_39_12__nolang.mp4"],
+        "en": ["places/skull-rock/00_39_05__00_39_12__nolang.mp4"]
+      }
+    },
+    {
+      "id": "mermaid-lagoon",
+      "order": 3,
+      "clips": {
+        "fr": ["places/mermaid-lagoon/00_36_31__00_36_36__nolang.mp4"],
+        "en": ["places/mermaid-lagoon/00_36_31__00_36_36__nolang.mp4"]
+      }
+    },
+    {
+      "id": "hangmans-tree",
+      "order": 4,
+      "clips": {
+        "fr": [
+          "places/hangmans-tree/fr/00_59_10__00_59_16__fr.mp4",
+          "places/hangmans-tree/00_56_25_00_56_36__nolang.mp4"
+        ],
+        "en": [
+          "places/hangmans-tree/en/00_59_10__00_59_16__en.mp4",
+          "places/hangmans-tree/00_56_25_00_56_36__nolang.mp4"
+        ]
+      }
+    }
+  ],
+  "villainCards": [
+    {
+      "id": "boarding-party",
+      "category": "ally",
+      "clips": {
+        "fr": ["villain-cards/boarding-party/01_08_28__01_08_30__nolang.mp4"],
+        "en": ["villain-cards/boarding-party/01_08_28__01_08_30__nolang.mp4"]
+      }
+    },
+    {
+      "id": "give-them-a-scare",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/give-them-a-scare/fr/00_22_14__00_22_18__fr.mp4"],
+        "en": ["villain-cards/give-them-a-scare/en/00_22_14__00_22_18__en.mp4"]
+      }
+    },
+    {
+      "id": "swashbuckler",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/swashbuckler/fr/00_21_22__00_21_27__fr.mp4",
+          "villain-cards/swashbuckler/fr/00_26_49__00_26_51__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/swashbuckler/en/00_21_22__00_21_27__en.mp4",
+          "villain-cards/swashbuckler/en/00_26_49__00_26_51__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "worthy-opponent",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/worthy-opponent/01_08_45__01_08_51__nolang.mp4",
+          "villain-cards/worthy-opponent/fr/01_10_13__01_10_24__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/worthy-opponent/01_08_45__01_08_51__nolang.mp4",
+          "villain-cards/worthy-opponent/en/01_10_13__01_10_24__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "aye-aye-sir",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/aye-aye-sir/fr/00_26_57__00_27_01__fr.mp4"],
+        "en": ["villain-cards/aye-aye-sir/en/00_26_57__00_27_01__en.mp4"]
+      }
+    },
+    {
+      "id": "cannon",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/cannon/fr/00_27_06__00_27_08__fr.mp4",
+          "villain-cards/cannon/fr/00_27_16__00_27_17__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/cannon/en/00_27_06__00_27_08__en.mp4",
+          "villain-cards/cannon/en/00_27_16__00_27_17__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "cunning",
+      "category": "condition",
+      "clips": {
+        "fr": ["villain-cards/cunning/fr/00_49_14__00_49_24__fr.mp4"],
+        "en": ["villain-cards/cunning/en/00_49_14__00_49_24__en.mp4"]
+      }
+    },
+    {
+      "id": "cutlass",
+      "category": "item",
+      "clips": {
+        "fr": ["villain-cards/cutlass/fr/01_09_07__01_09_09__fr.mp4"],
+        "en": ["villain-cards/cutlass/en/01_09_07__01_09_09__en.mp4"]
+      }
+    },
+    {
+      "id": "hooks-case",
+      "category": "item",
+      "clips": {
+        "fr": ["villain-cards/hooks-case/fr/00_48_24__00_48_30__fr.mp4"],
+        "en": ["villain-cards/hooks-case/en/00_48_24__00_48_30__en.mp4"]
+      }
+    },
+    {
+      "id": "obsession",
+      "category": "condition",
+      "clips": {
+        "fr": ["villain-cards/obsession/fr/00_21_40__00_21_51__fr.mp4"],
+        "en": ["villain-cards/obsession/en/00_21_40__00_21_51__en.mp4"]
+      }
+    },
+    {
+      "id": "pirate-brute",
+      "category": "ally",
+      "clips": {
+        "fr": ["villain-cards/pirate-brute/fr/01_02_28__01_02_34__fr.mp4"],
+        "en": ["villain-cards/pirate-brute/en/01_02_28__01_02_34__en.mp4"]
+      }
+    },
+    {
+      "id": "ingenious-device",
+      "category": "item",
+      "clips": {
+        "fr": ["villain-cards/ingenious-device/fr/01_04_10__01_04_19__fr.mp4"],
+        "en": ["villain-cards/ingenious-device/en/01_04_10__01_04_19__en.mp4"]
+      }
+    },
+    {
+      "id": "mr-starkey",
+      "category": "ally",
+      "clips": {
+        "fr": ["villain-cards/mr-starkey/fr/00_21_04__00_21_08__fr.mp4"],
+        "en": ["villain-cards/mr-starkey/en/00_21_04__00_21_08__en.mp4"]
+      }
+    },
+    {
+      "id": "neverland-map",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/neverland-map/fr/00_55_06__00_55_14__fr.mp4",
+          "villain-cards/neverland-map/fr/00_56_04__00_56_15__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/neverland-map/en/00_55_06__00_55_14__en.mp4",
+          "villain-cards/neverland-map/en/00_56_04__00_56_15__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "smee",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/smee/fr/00_21_00__00_21_04__fr.mp4",
+          "villain-cards/smee/fr/00_26_45__00_26_57__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/smee/en/00_21_00__00_21_04__en.mp4",
+          "villain-cards/smee/en/00_26_45__00_26_57__en.mp4"
+        ]
+      }
+    }
+  ],
+  "fateCards": [
+    {
+      "id": "pixie-dust",
+      "category": "item",
+      "clips": {
+        "fr": [
+			"fate-cards/pixie-dust/00_10_31__00_10_32__nolang.mp4",
+			"fate-cards/pixie-dust/fr/00_17_40__00_17_48__fr.mp4"
+		],
+        "en": [
+			"fate-cards/pixie-dust/00_10_31__00_10_32__nolang.mp4",
+			"fate-cards/pixie-dust/en/00_17_40__00_17_48__en.mp4"
+		]
+      }
+    },
+    {
+      "id": "lost-boys",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/lost-boys/fr/00_30_46__00_30_52__fr.mp4"],
+        "en": ["fate-cards/lost-boys/en/00_30_46__00_30_52__en.mp4"]
+      }
+    },
+    {
+      "id": "splitting-headache",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "fate-cards/splitting-headache/fr/00_46_13__00_46_25__fr.mp4",
+          "fate-cards/splitting-headache/fr/00_47_24__00_47_32__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/splitting-headache/en/00_46_13__00_46_25__en.mp4",
+          "fate-cards/splitting-headache/en/00_47_24__00_47_32__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "taunt",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "fate-cards/taunt/fr/00_40_36__00_40_42__fr.mp4",
+          "fate-cards/taunt/fr/00_40_53__00_40_57__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/taunt/en/00_40_36__00_40_42__en.mp4",
+          "fate-cards/taunt/en/00_40_53__00_40_57__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "john",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/john/fr/00_31_57__00_32_05__fr.mp4",
+          "fate-cards/john/fr/00_16_00__00_16_04__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/john/en/00_31_57__00_32_05__en.mp4",
+          "fate-cards/john/en/00_16_00__00_16_04__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "michael",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/michael/fr/00_32_06__00_32_10__fr.mp4"],
+        "en": ["fate-cards/michael/en/00_32_06__00_32_10__en.mp4"]
+      }
+    },
+    {
+      "id": "peter-pan",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/peter-pan/fr/00_26_34__00_26_40__fr.mp4",
+          "fate-cards/peter-pan/fr/00_28_05__00_28_11__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/peter-pan/en/00_26_34__00_26_40__en.mp4",
+          "fate-cards/peter-pan/en/00_28_05__00_28_11__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "tick-tock",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/tick-tock/fr/00_44_03__00_44_17__fr.mp4"],
+        "en": ["fate-cards/tick-tock/en/00_44_03__00_44_17__en.mp4"]
+      }
+    },
+    {
+      "id": "tinker-bell",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/tinker-bell/00_55_04__00_55_06__nolang.mp4"],
+        "en": ["fate-cards/tinker-bell/00_55_04__00_55_06__nolang.mp4"]
+      }
+    },
+    {
+      "id": "wendy",
+      "category": "hero",
+      "clips": {
+        "fr": [
+			"fate-cards/wendy/fr/00_37_35__00_37_39__fr.mp4",
+			"fate-cards/wendy/fr/01_03_23__01_03_27__fr.mp4"
+        ],
+        "en": [
+			"fate-cards/wendy/en/00_37_35__00_37_39__en.mp4",
+			"fate-cards/wendy/en/01_03_23__01_03_27__en.mp4"
+        ]
+      }
+    }
+  ]
+}

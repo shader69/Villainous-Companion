@@ -1,0 +1,407 @@
+{
+  "id": "prince-john",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Prince Jean",
+    "en": "Prince John"
+  },
+  "color": "#784C2F",
+  "introPath": {
+    "fr": "intro/fr/00_06_49__00_06_57__fr.mp4",
+    "en": "intro/en/00_06_49__00_06_57__en.mp4"
+  },
+  "outroPath": {
+    "fr": "outro/fr/00_31_50__00_31_59__fr.mp4",
+    "en": "outro/en/00_31_50__00_31_59__en.mp4"
+  },
+  "places": [
+	{
+      "id": "sherwood-forest",
+      "order": 1,
+      "clips": {
+        "fr": [
+			"places/sherwood-forest/00_28_10__00_28_16__nolang.mp4"
+		],
+        "en": [
+			"places/sherwood-forest/00_28_10__00_28_16__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "friar-tucks-church",
+      "order": 2,
+      "clips": {
+        "fr": [
+			"places/friar-tucks-church/00_57_10__00_57_13__nolang.mp4"
+		],
+        "en": [
+			"places/friar-tucks-church/00_57_10__00_57_13__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "nottingham",
+      "order": 3,
+      "clips": {
+        "fr": [
+			"places/nottingham/fr/00_07_03__00_07_07__fr.mp4",
+			"places/nottingham/fr/00_15_32__00_15_35__fr.mp4"
+		],
+        "en": [
+			"places/nottingham/en/00_07_03__00_07_07__en.mp4",
+			"places/nottingham/en/00_15_32__00_15_35__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "the-jail",
+      "order": 4,
+      "clips": {
+        "fr": [
+			"places/the-jail/00_55_11__00_55_15__nolang.mp4",
+			"places/the-jail/01_05_22__01_05_27__nolang.mp4"
+		],
+        "en": [
+			"places/the-jail/00_55_11__00_55_15__nolang.mp4",
+			"places/the-jail/01_05_22__01_05_27__nolang.mp4"
+		]
+      }
+    }
+  ],
+  "villainCards": [
+	{
+      "id": "beautiful-lovely-taxes",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/beautiful-lovely-taxes/fr/00_06_35__00_06_43__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/beautiful-lovely-taxes/en/00_06_35__00_06_43__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "bow-and-arrows",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/bow-and-arrows/01_16_56__01_17_00__nolang.mp4"
+        ],
+        "en": [
+          "villain-cards/bow-and-arrows/01_16_56__01_17_00__nolang.mp4"
+        ]
+      }
+    },
+	{
+      "id": "cowardice",
+      "category": "condition",
+      "clips": {
+        "fr": [
+          "villain-cards/cowardice/fr/00_08_19__00_08_24__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/cowardice/en/00_08_19__00_08_24__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "golden-arrow",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/golden-arrow/fr/00_37_42__00_37_47__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/golden-arrow/en/00_37_42__00_37_47__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "greed",
+      "category": "condition",
+      "clips": {
+        "fr": [
+          "villain-cards/greed/fr/00_32_42__00_32_49__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/greed/en/00_32_42__00_32_49__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "imprison",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/imprison/01_10_04__01_10_11__nolang.mp4"
+        ],
+        "en": [
+          "villain-cards/imprison/01_10_04__01_10_11__nolang.mp4"
+        ]
+      }
+    },
+	{
+      "id": "intimidation",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/intimidation/fr/00_16_57__00_17_05__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/intimidation/en/00_16_57__00_17_05__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "king-richards-crown",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/king-richards-crown/fr/00_07_42__00_07_47__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/king-richards-crown/en/00_07_42__00_07_47__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "nutsy",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/nutsy/fr/01_03_58__01_04_04__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/nutsy/en/01_03_58__01_04_04__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "rhino-guards",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/rhino-guards/fr/00_14_25__00_14_29__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/rhino-guards/en/00_14_25__00_14_29__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "set-a-trap",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/set-a-trap/fr/00_42_41__00_42_47__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/set-a-trap/en/00_42_41__00_42_47__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "sheriff-of-nottingham",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/sheriff-of-nottingham/fr/00_15_33__00_15_39__fr.mp4",
+          "villain-cards/sheriff-of-nottingham/fr/00_18_20__00_18_29__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/sheriff-of-nottingham/en/00_15_33__00_15_39__en.mp4",
+          "villain-cards/sheriff-of-nottingham/en/00_18_20__00_18_29__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "sir-hiss",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/sir-hiss/fr/00_06_43__00_06_49__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/sir-hiss/en/00_06_43__00_06_49__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "trigger",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/trigger/fr/01_04_30__01_04_32__fr.mp4",
+          "villain-cards/trigger/fr/01_07_02__01_07_07__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/trigger/en/01_04_30__01_04_32__en.mp4",
+          "villain-cards/trigger/en/01_07_02__01_07_07__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "warrant",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/warrant/fr/00_15_11__00_15_13__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/warrant/en/00_15_11__00_15_13__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "wolf-archers",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/wolf-archers/fr/00_04_13__00_04_18__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/wolf-archers/en/00_04_13__00_04_18__en.mp4"
+        ]
+      }
+    }
+  ],
+  "fateCards": [
+	{
+      "id": "alan-a-dale",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/alan-a-dale/fr/00_15_19__00_15_24__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/alan-a-dale/en/00_15_19__00_15_24__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "clever-disguise",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "fate-cards/clever-disguise/fr/00_33_39__00_33_43__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/clever-disguise/en/00_33_39__00_33_43__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "friar-tuck",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/friar-tuck/fr/00_15_51__00_15_56__fr.mp4",
+          "fate-cards/friar-tuck/fr/00_30_10__00_30_17__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/friar-tuck/en/00_15_51__00_15_56__en.mp4",
+          "fate-cards/friar-tuck/en/00_30_10__00_30_17__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "king-richard",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/king-richard/fr/01_21_23__01_21_28__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/king-richard/en/01_21_23__01_21_28__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "lady-kluck",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/lady-kluck/fr/00_27_18__00_27_26__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/lady-kluck/en/00_27_18__00_27_26__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "little-john",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/little-john/fr/00_04_41__00_04_44__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/little-john/en/00_04_41__00_04_44__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "maid-marian",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/maid-marian/fr/00_27_28__00_27_37__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/maid-marian/en/00_27_28__00_27_37__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "robin-hood",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/robin-hood/fr/00_31_14__00_31_22__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/robin-hood/en/00_31_14__00_31_22__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "skippy",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/skippy/fr/00_19_44__00_19_55__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/skippy/en/00_19_44__00_19_55__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "steal-from-the-rich",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "fate-cards/steal-from-the-rich/01_13_59__01_14_08__nolang.mp4"
+        ],
+        "en": [
+          "fate-cards/steal-from-the-rich/01_13_59__01_14_08__nolang.mp4"
+        ]
+      }
+    },
+	{
+      "id": "toby",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/toby/fr/00_21_46__00_21_51__fr.mp4",
+          "fate-cards/toby/fr/00_22_13__00_22_19__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/toby/en/00_21_46__00_21_51__en.mp4",
+          "fate-cards/toby/en/00_22_13__00_22_19__en.mp4"
+        ]
+      }
+    }  
+  ]
+}

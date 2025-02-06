@@ -1,0 +1,357 @@
+{
+  "id": "ursula",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Ursula",
+    "en": "Ursula"
+  },
+  "color": "#2D2431",
+  "introPath": {
+    "fr": "intro/fr/01_13_30__01_13_36__fr.mp4",
+    "en": "intro/en/01_13_30__01_13_36__en.mp4"
+  },
+  "outroPath": {
+    "fr": "outro/fr/01_13_21__01_13_30__fr.mp4",
+    "en": "outro/en/01_13_21__01_13_30__en.mp4"
+  },
+  "places": [
+	{
+      "id": "ursulas-lair",
+      "order": 1,
+      "clips": {
+        "fr": ["places/ursulas-lair/00_38_49__00_38_55__nolang.mp4"],
+        "en": ["places/ursulas-lair/00_38_49__00_38_55__nolang.mp4"]
+      }
+    },
+	{
+      "id": "erics-ship",
+      "order": 2,
+      "clips": {
+        "fr": ["places/erics-ship/00_19_13__00_19_17__nolang.mp4"],
+        "en": ["places/erics-ship/00_19_13__00_19_17__nolang.mp4"]
+      }
+    },
+	{
+      "id": "the-shore",
+      "order": 3,
+      "clips": {
+        "fr": ["places/the-shore/00_24_53__00_24_58__nolang.mp4"],
+        "en": ["places/the-shore/00_24_53__00_24_58__nolang.mp4"]
+      }
+    },
+	{
+      "id": "the-palace",
+      "order": 4,
+      "clips": {
+        "fr": ["places/the-palace/00_45_41__00_45_46__nolang.mp4"],
+        "en": ["places/the-palace/00_45_41__00_45_46__nolang.mp4"]
+      }
+    }
+  ],
+  "villainCards": [
+    {
+      "id": "binding-contract",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/binding-contract/fr/00_44_06__00_44_11__fr.mp4",
+          "villain-cards/binding-contract/fr/00_44_24__00_44_28__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/binding-contract/en/00_44_06__00_44_11__en.mp4",
+          "villain-cards/binding-contract/en/00_44_24__00_44_28__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "change-form",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/change-form/fr/01_02_55__01_03_02__fr.mp4",
+          "villain-cards/change-form/fr/01_06_53__01_06_57__fr.mp4",
+          "villain-cards/change-form/fr/01_08_44__01_08_54__fr.mp4",
+          "villain-cards/change-form/fr/01_10_19__01_10_25__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/change-form/en/01_02_55__01_03_02__en.mp4",
+          "villain-cards/change-form/en/01_06_53__01_06_57__en.mp4",
+          "villain-cards/change-form/en/01_08_44__01_08_54__en.mp4",
+          "villain-cards/change-form/en/01_10_19__01_10_25__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "grow-giant",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/grow-giant/01_13_03__01_13_18__nolang.mp4"],
+        "en": ["villain-cards/grow-giant/01_13_03__01_13_18__nolang.mp4"]
+      }
+    },
+	{
+      "id": "opportunist",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/opportunist/fr/00_11_54__00_12_02__fr.mp4"],
+        "en": ["villain-cards/opportunist/en/00_11_54__00_12_02__en.mp4"]
+      }
+    },
+	{
+      "id": "whirlpool",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/whirlpool/01_14_25__01_14_29__nolang.mp4"],
+        "en": ["villain-cards/whirlpool/01_14_25__01_14_29__nolang.mp4"]
+      }
+    },
+	{
+      "id": "arrogance",
+      "category": "condition",
+      "clips": {
+        "fr": ["villain-cards/arrogance/fr/01_12_01__01_12_04__fr.mp4"],
+        "en": ["villain-cards/arrogance/en/01_12_01__01_12_04__en.mp4"]
+      }
+    },
+	{
+      "id": "divination",
+      "category": "effect",
+      "clips": {
+        "fr": ["villain-cards/divination/fr/00_11_02__00_11_12__fr.mp4"],
+        "en": ["villain-cards/divination/en/00_11_02__00_11_12__en.mp4"]
+	  }
+    },
+	{
+      "id": "trickery",
+      "category": "condition",
+      "clips": {
+        "fr": ["villain-cards/trickery/01_03_56__01_04_07__nolang.mp4"],
+        "en": ["villain-cards/trickery/01_03_56__01_04_07__nolang.mp4"]
+      }
+    },
+	{
+      "id": "cauldron",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/cauldron/fr/00_40_39__00_40_42__fr.mp4",
+          "villain-cards/cauldron/fr/00_43_54__00_44_00__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/cauldron/en/00_40_39__00_40_42__en.mp4",
+          "villain-cards/cauldron/en/00_43_54__00_44_00__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "crown",
+      "category": "item",
+      "clips": {
+        "fr": ["villain-cards/crown/01_11_51__01_11_52__nolang.mp4"],
+        "en": ["villain-cards/crown/01_11_51__01_11_52__nolang.mp4"]
+      }
+    },
+	{
+      "id": "flotsam",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/flotsam-jetsam/00_10_57__00_10_53__nolang.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_37_37__00_37_43__fr.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_38_14__00_38_10__fr.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_38_57__00_38_59__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/flotsam-jetsam/00_10_57__00_10_53__nolang.mp4",
+          "villain-cards/flotsam-jetsam/en/00_37_37__00_37_43__en.mp4",
+          "villain-cards/flotsam-jetsam/en/00_38_14__00_38_10__en.mp4",
+          "villain-cards/flotsam-jetsam/en/00_38_57__00_38_59__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "jetsam",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/flotsam-jetsam/00_10_57__00_10_53__nolang.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_37_37__00_37_43__fr.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_38_14__00_38_10__fr.mp4",
+          "villain-cards/flotsam-jetsam/fr/00_38_57__00_38_59__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/flotsam-jetsam/00_10_57__00_10_53__nolang.mp4",
+          "villain-cards/flotsam-jetsam/en/00_37_37__00_37_43__en.mp4",
+          "villain-cards/flotsam-jetsam/en/00_38_14__00_38_10__en.mp4",
+          "villain-cards/flotsam-jetsam/en/00_38_57__00_38_59__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "poor-unfortunate-souls",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/poor-unfortunate-souls/00_39_09__00_39_12__nolang.mp4",
+          "villain-cards/poor-unfortunate-souls/fr/00_27_35__00_27_42__fr.mp4",
+          "villain-cards/poor-unfortunate-souls/fr/00_41_16__00_41_25__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/poor-unfortunate-souls/00_39_09__00_39_12__nolang.mp4",
+          "villain-cards/poor-unfortunate-souls/en/00_27_35__00_27_42__en.mp4",
+          "villain-cards/poor-unfortunate-souls/en/00_41_16__00_41_25__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "trident",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/trident/01_15_21__01_15_23__nolang.mp4",
+          "villain-cards/trident/fr/00_35_51__00_35_55__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/trident/01_15_21__01_15_23__nolang.mp4",
+          "villain-cards/trident/en/00_35_51__00_35_55__en.mp4"
+        ]
+      }
+    }
+  ],
+  "fateCards": [
+    {
+      "id": "return-to-form",
+      "category": "effect",
+      "clips": {
+        "fr": ["fate-cards/return-to-form/01_15_15__01_15_21__nolang.mp4"],
+        "en": ["fate-cards/return-to-form/01_15_15__01_15_21__nolang.mp4"]
+      }
+    },
+    {
+      "id": "dinglehopper",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "fate-cards/dinglehopper/fr/00_09_40__00_09_47__fr.mp4",
+          "fate-cards/dinglehopper/fr/00_51_40__00_51_51__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/dinglehopper/en/00_09_40__00_09_47__en.mp4",
+          "fate-cards/dinglehopper/en/00_51_40__00_51_51__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "snarfblat",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "fate-cards/snarfblat/fr/00_10_08__00_10_13__fr.mp4",
+          "fate-cards/snarfblat/fr/00_10_25__00_10_31__fr.mp4",
+          "fate-cards/snarfblat/fr/00_51_57__00_52_04__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/snarfblat/en/00_10_08__00_10_13__en.mp4",
+          "fate-cards/snarfblat/en/00_10_25__00_10_31__en.mp4",
+          "fate-cards/snarfblat/en/00_51_57__00_52_04__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "ariel",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/ariel/fr/00_26_57__00_27_04__fr.mp4"],
+        "en": ["fate-cards/ariel/en/00_26_57__00_27_04__en.mp4"]
+      }
+    },
+    {
+      "id": "eric",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/eric/fr/00_01_26__00_01_32__fr.mp4",
+          "fate-cards/eric/fr/00_22_09__00_22_12__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/eric/en/00_01_26__00_01_32__en.mp4",
+          "fate-cards/eric/en/00_22_09__00_22_12__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "flounder",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/flounder/fr/00_12_32__00_12_36__fr.mp4"],
+        "en": ["fate-cards/flounder/en/00_12_32__00_12_36__en.mp4"]
+      }
+    },
+    {
+      "id": "grimsby",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/grimsby/00_51_48__00_51_49__nolang.mp4",
+          "fate-cards/grimsby/fr/00_01_51__00_01_59__fr.mp4",
+          "fate-cards/grimsby/fr/00_21_17__00_21_23__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/grimsby/00_51_48__00_51_49__nolang.mp4",
+          "fate-cards/grimsby/en/00_01_51__00_01_59__en.mp4",
+          "fate-cards/grimsby/en/00_21_17__00_21_23__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "king-triton",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/king-triton/fr/00_03_48__00_04_00__fr.mp4",
+          "fate-cards/king-triton/fr/00_12_55__00_13_04__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/king-triton/en/00_03_48__00_04_00__en.mp4",
+          "fate-cards/king-triton/en/00_12_55__00_13_04__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "max",
+      "category": "hero",
+      "clips": {
+        "fr": ["fate-cards/max/fr/00_20_51__00_20_58__fr.mp4"],
+        "en": ["fate-cards/max/en/00_20_51__00_20_58__en.mp4"]
+      }
+    },
+    {
+      "id": "scuttle",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/scuttle/fr/00_09_05__00_09_14__fr.mp4",
+          "fate-cards/scuttle/fr/00_09_32__00_09_38__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/scuttle/en/00_09_05__00_09_14__en.mp4",
+          "fate-cards/scuttle/en/00_09_32__00_09_38__en.mp4"
+        ]
+      }
+    },
+    {
+      "id": "sebastian",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/sebastian/fr/00_04_13__00_04_21__fr.mp4",
+          "fate-cards/sebastian/fr/00_29_34__00_29_40__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/sebastian/en/00_04_13__00_04_21__en.mp4",
+          "fate-cards/sebastian/en/00_29_34__00_29_40__en.mp4"
+        ]
+      }
+    }
+  ]
+}

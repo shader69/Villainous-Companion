@@ -1,0 +1,14 @@
+{
+  "id": "maleficent",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Maléfique",
+    "en": "Maleficent"
+  },
+  "color": "#375A3A",
+  "introPath": {},
+  "outroPath": {},
+  "places": [],
+  "villainCards": [],
+  "fateCards": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "base-game",
+  "name": {
+    "fr": "Quel méchant sommeille en vous ?",
+    "en": "The Worst Takes It All"
+  },
+  "color": "#3A4D2C",
+  "villains": ["maleficent", "hook", "jafar", "prince-john", "queen-of-hearts", "ursula"]
+}

@@ -1,0 +1,409 @@
+{
+  "id": "jafar",
+  "boxId": "base-game",
+  "name": {
+    "fr": "Jafar",
+    "en": "Jafar"
+  },
+  "color": "#303030",
+  "introPath": {
+    "fr": "intro/fr/01_11_59__01_12_06__fr.mp4",
+    "en": "intro/en/01_11_59__01_12_06__en.mp4"
+  },
+  "outroPath": {
+    "fr": "outro/fr/01_21_14__01_21_20__fr.mp4",
+    "en": "outro/en/01_21_14__01_21_20__en.mp4"
+  },
+  "places": [
+	{
+      "id": "sultans-palace",
+      "order": 1,
+      "clips": {
+        "fr": [
+			"places/sultans-palace/00_12_24__00_12_27__nolang.mp4"
+		],
+        "en": [
+			"places/sultans-palace/00_12_24__00_12_27__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "streets-of-agrabah",
+      "order": 2,
+      "clips": {
+        "fr": [
+			"places/streets-of-agrabah/00_17_04__00_17_09__nolang.mp4"
+		],
+        "en": [
+			"places/streets-of-agrabah/00_17_04__00_17_09__nolang.mp4"
+		]
+      }
+    },
+	{
+      "id": "oasis",
+      "order": 3,
+      "clips": {
+        "fr": [
+			"places/oasis/fr/00_43_17__00_43_20__fr.mp4"
+		],
+        "en": [
+			"places/oasis/en/00_43_17__00_43_20__en.mp4"
+		]
+      }
+    },
+	{
+      "id": "cave-of-wonders",
+      "order": 4,
+      "clips": {
+        "fr": [
+			"places/cave-of-wonders/fr/00_04_17__00_04_26__fr.mp4",
+			"places/cave-of-wonders/fr/00_05_08__00_05_13__fr.mp4"
+		],
+        "en": [
+			"places/cave-of-wonders/en/00_04_17__00_04_26__en.mp4",
+			"places/cave-of-wonders/en/00_05_08__00_05_13__en.mp4"
+		]
+      }
+    }
+  ],
+  "villainCards": [
+	{
+      "id": "a-snake-am-i",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/a-snake-am-i/fr/01_18_54__01_19_11__fr.mp4",
+          "villain-cards/a-snake-am-i/fr/01_19_54__01_20_00__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/a-snake-am-i/en/01_18_54__01_19_11__en.mp4",
+          "villain-cards/a-snake-am-i/en/01_19_54__01_20_00__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "deception",
+      "category": "condition",
+      "clips": {
+        "fr": [
+          "villain-cards/deception/fr/01_19_01__01_19_06__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/deception/en/01_19_01__01_19_06__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "gazeem",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/gazeem/fr/00_03_30__00_03_23__fr.mp4",
+          "villain-cards/gazeem/fr/00_04_45__00_04_48__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/gazeem/en/00_03_30__00_03_23__en.mp4",
+          "villain-cards/gazeem/en/00_04_45__00_04_48__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "giant-hourglass",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/giant-hourglass/fr/01_18_18__01_18_26__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/giant-hourglass/en/01_18_18__01_18_26__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "hypnotize",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/hypnotize/fr/00_48_22__00_48_24__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/hypnotize/en/00_48_22__00_48_24__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "iago",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/iago/fr/01_20_00__01_20_03__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/iago/en/01_20_00__01_20_03__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "magic-lamp",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/magic-lamp/fr/00_02_40__00_02_49__fr.mp4",
+          "villain-cards/magic-lamp/fr/00_31_26__00_31_29__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/magic-lamp/en/00_02_40__00_02_49__en.mp4",
+          "villain-cards/magic-lamp/en/00_31_26__00_31_29__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "manipulation",
+      "category": "condition",
+      "clips": {
+        "fr": [
+          "villain-cards/manipulation/fr/01_05_20__01_05_24__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/manipulation/en/01_05_20__01_05_24__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "necessary-sacrifice",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/necessary-sacrifice/fr/00_26_48__00_26_52__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/necessary-sacrifice/en/00_26_48__00_26_52__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "palace-guard",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/palace-guard/fr/00_07_46__00_07_48__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/palace-guard/en/00_07_46__00_07_48__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "razoul",
+      "category": "ally",
+      "clips": {
+        "fr": [
+          "villain-cards/razoul/fr/00_07_28__00_07_32__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/razoul/en/00_07_28__00_07_32__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "scarab-pendant",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/scarab-pendant/fr/00_03_50__00_03_59__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/scarab-pendant/en/00_03_50__00_03_59__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "scimitar",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/scimitar/fr/00_09_07__00_09_14__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/scimitar/en/00_09_07__00_09_14__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "scrying",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/scrying/fr/00_20_04__00_20_12__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/scrying/en/00_20_04__00_20_12__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "snake-staff",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "villain-cards/snake-staff/fr/00_15_29__00_15_33__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/snake-staff/en/00_15_29__00_15_33__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "sorcerous-power",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "villain-cards/sorcerous-power/fr/01_12_21__01_12_35__fr.mp4"
+        ],
+        "en": [
+          "villain-cards/sorcerous-power/en/01_12_21__01_12_35__en.mp4"
+        ]
+      }
+    }
+  ],
+  "fateCards": [
+	{
+      "id": "abu",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/abu/fr/00_08_41__00_08_44__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/abu/en/00_08_41__00_08_44__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "aladdin",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/aladdin/fr/00_06_54__00_06_56__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/aladdin/en/00_06_54__00_06_56__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "carpet",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/carpet/fr/00_29_52__00_29_57__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/carpet/en/00_29_52__00_29_57__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "crushing-blow",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "fate-cards/crushing-blow/00_52_49__00_52_53__nolang.mp4"
+        ],
+        "en": [
+          "fate-cards/crushing-blow/00_52_49__00_52_53__nolang.mp4"
+        ]
+      }
+    },
+	{
+      "id": "genie",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/genie/fr/00_35_45__00_35_55__fr.mp4",
+          "fate-cards/genie/fr/00_36_46__00_36_47__fr.mp4",
+          "fate-cards/genie/fr/01_11_47__01_11_56__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/genie/en/00_35_45__00_35_55__en.mp4",
+          "fate-cards/genie/en/00_36_46__00_36_47__en.mp4",
+          "fate-cards/genie/en/01_11_47__01_11_56__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "narrow-escape",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "fate-cards/narrow-escape/01_03_20__01_03_24__nolang.mp4"
+        ],
+        "en": [
+          "fate-cards/narrow-escape/01_03_20__01_03_24__nolang.mp4"
+        ]
+      }
+    },
+	{
+      "id": "princess-jasmine",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/princess-jasmine/fr/00_13_51__00_13_58__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/princess-jasmine/en/00_13_51__00_13_58__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "rajah",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/rajah/fr/00_12_56__00_13_01__fr.mp4",
+          "fate-cards/rajah/fr/00_14_10__00_14_16__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/rajah/en/00_12_56__00_13_01__en.mp4",
+          "fate-cards/rajah/en/00_14_10__00_14_16__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "sultan",
+      "category": "hero",
+      "clips": {
+        "fr": [
+          "fate-cards/sultan/fr/01_10_11__01_10_15__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/sultan/en/01_10_11__01_10_15__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "treachery",
+      "category": "effect",
+      "clips": {
+        "fr": [
+          "fate-cards/treachery/fr/01_21_31__01_21_40__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/treachery/en/01_21_31__01_21_40__en.mp4"
+        ]
+      }
+    },
+	{
+      "id": "wish",
+      "category": "item",
+      "clips": {
+        "fr": [
+          "fate-cards/wish/fr/00_37_08__00_37_10__fr.mp4"
+        ],
+        "en": [
+          "fate-cards/wish/en/00_37_08__00_37_10__en.mp4"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+:root {
+  --color-bg-main: #24372B;
+  --color-bg-main-hover: #131C16;
+  --color-border-main: #BD9A64;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-main {
+    background-color: var(--color-bg-main);
+}
+
+.hover\:bg-main:hover {
+    background-color: var(--color-bg-main-hover);
+}
+
+.border-main {
+    border: 2px solid var(--color-border-main);
+}
+
+.focus\:ring-main:focus,
+.ring-main {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: var(--color-border-main);
+}
