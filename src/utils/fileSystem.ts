@@ -2,14 +2,34 @@ import {Box, Villain, Place, Card } from '../types/villains';
 
 export async function loadBoxes(): Promise<Box[]> {
   try {
-    const baseGameResponse = await fetch('/boxes/base-game/box.json');
-    if (!baseGameResponse.ok) {
-      console.error('Could not load base game box');
+    // Charger l'index des boîtes disponibles
+    const indexResponse = await fetch('/boxes/index.json');
+    if (!indexResponse.ok) {
+      console.error('Could not load boxes index');
       return [];
     }
-    const baseGame = await baseGameResponse.json();
-    console.log('Loaded base game:', baseGame);
-    return [baseGame];
+    
+    const index = await indexResponse.json();
+    const boxIds: string[] = index.boxes || [];
+    
+    // Charger chaque boîte
+    const boxes: Box[] = [];
+    for (const boxId of boxIds) {
+      try {
+        const boxResponse = await fetch(`/boxes/${boxId}/box.json`);
+        if (boxResponse.ok) {
+          const box = await boxResponse.json();
+          boxes.push(box);
+          console.log(`Loaded box: ${boxId}`);
+        } else {
+          console.error(`Could not load box ${boxId}`);
+        }
+      } catch (error) {
+        console.error(`Error loading box ${boxId}:`, error);
+      }
+    }
+    
+    return boxes;
   } catch (error) {
     console.error('Error loading boxes:', error);
     return [];
