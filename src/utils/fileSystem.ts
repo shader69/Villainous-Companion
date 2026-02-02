@@ -80,23 +80,34 @@ export async function loadVillain(boxId: string, villainId: string): Promise<Vil
       imagePath: `${villainPath}/places/${place.id}/place.png`
     }));
 
-    // Mettre à jour les chemins pour les cartes
+    // Mettre à jour les chemins pour les cartes (forcedCardsLanguage force une seule langue pour les images)
+    const cardLang = villain.forcedCardsLanguage;
+    const cardImagePath = (cardId: string, folder: 'villain-cards' | 'fate-cards') =>
+      cardLang
+        ? Object.fromEntries(
+            Object.keys(villain.name).map((lang) => [
+              lang,
+              `${villainPath}/${folder}/${cardId}/${cardLang}/card.png`,
+            ])
+          )
+        : Object.keys(villain.name).reduce(
+            (paths, lang) => ({
+              ...paths,
+              [lang]: `${villainPath}/${folder}/${cardId}/${lang}/card.png`,
+            }),
+            {} as Record<string, string>
+          );
+
     villain.villainCards = villain.villainCards.map((card: Card) => ({
       ...card,
       clips: addVillainPath(card.clips),
-      imagePath: Object.keys(villain.name).reduce((paths, lang) => ({
-        ...paths,
-        [lang]: `${villainPath}/villain-cards/${card.id}/${lang}/card.png`,
-      }), {}),
+      imagePath: cardImagePath(card.id, 'villain-cards'),
     }));
-    
+
     villain.fateCards = villain.fateCards.map((card: Card) => ({
       ...card,
       clips: addVillainPath(card.clips),
-      imagePath: Object.keys(villain.name).reduce((paths, lang) => ({
-        ...paths,
-        [lang]: `${villainPath}/fate-cards/${card.id}/${lang}/card.png`,
-      }), {}),
+      imagePath: cardImagePath(card.id, 'fate-cards'),
     }));
     
     console.log(`Successfully loaded villain ${villainId}:`, villain);

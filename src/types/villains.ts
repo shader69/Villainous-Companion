@@ -10,6 +10,7 @@ export interface Villain {
   boxId: string;
   name: Record<string, string>;
   color: string;
+  forcedCardsLanguage?: string; /** Langue à utiliser pour les images des cartes (ex: "en"). Si absent, une path par langue du name. */
   avatarPath: string;
   introPath: Record<string, string>;
   outroPath: Record<string, string>;
